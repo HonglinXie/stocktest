@@ -10,6 +10,7 @@ export function listUser(query) {
   })
 }
 
+
 // 查询用户详细
 export function getUser(userId) {
   return request({

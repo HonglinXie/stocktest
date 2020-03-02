@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import VersionManger from '../views/sddm/VersionManager'
 
 Vue.use(Router)
 
@@ -104,6 +105,12 @@ export const constantRoutes = [
         meta: { title: '修改生成配置' }
       }
     ]
+  },
+
+  {
+    path: '/sddm',
+    component: VersionManger,
+    hidden: true,
   }
 ]
 

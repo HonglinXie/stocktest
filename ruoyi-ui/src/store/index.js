@@ -7,6 +7,8 @@ import permission from './modules/permission'
 import settings from './modules/settings'
 import getters from './getters'
 
+import sddmstore from './modules/sddmstore'
+
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
@@ -15,7 +17,8 @@ const store = new Vuex.Store({
     user,
     tagsView,
     permission,
-    settings
+    settings,
+    sddmstore
   },
   getters
 })
